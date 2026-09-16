@@ -6,7 +6,7 @@
 # ==========================================
 
 # เขียนโค้ดต่อจากนี้
-quantity = int(input())
+quantity = int(input("จำนวนสมุด: "))
 result = print(quantity * 20)
 if quantity > 5:
     print( "ราคาที่ต้องจ่าย",quantity * 20 - 10)
